@@ -180,7 +180,7 @@ section .content{
 .about .about-details{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: top;
 }
 section .title{
   display: flex;
@@ -214,10 +214,10 @@ section .title span::after{
   width: 45%;
 }
 .about .left img{
-  height: 400px;
+  height: 520px;
   width: 400px;
-  object-fit: cover;
-  border-radius: 12px;
+  object-fit: fill;
+  border-radius: 15px;
 }
 .about-details .right{
   width: 55%;
